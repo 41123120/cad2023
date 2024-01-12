@@ -145,12 +145,22 @@ img.add_border {
     <div id="tipue_search_content">課程總結 << <a href='課程總結.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython<br /><h1>座位排序</h1>
 <p><span>輸入:利用 Python 讀取下列檔案名稱為 2a_w12_seat.txt "2b stud num    seat ...</span></p>
 <p><span>回覆結果:</span></p>
+<p><span>你可以使用 Python 中的檔案讀取功能，來讀取這個檔案並處理其中的資料。以下是一個簡單的範例程式碼，可以讀取檔案並將資料列印出來：</span></p>
 <p><img alt="" height="311" src="./../images/螢幕擷取畫面 2024-01-06 154706.png" width="553"/></p>
 <p><span>輸入:假如前面程式中的座位號第一個 index 代表"列"而第二個 index 代表行, 請延續上個程式, 由左到右作為每一列的順序, 而且希望陣列排序是列出該位置上的學員學號</span></p>
 <p><span>回覆結果:</span></p>
+<p><span>若希望按照座位順序列出學號，可以對讀取的資料進行整理和排序。以下是修改後的程式碼:</span></p>
 <p><span><img alt="" height="240" src="./../images/螢幕擷取畫面 2024-01-06 154843.png" width="427"/></span></p>
-<p><span></span></p>
-<br />課程總結 << <a href='課程總結.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+<p><span>輸入:假如 "2a_w12_seat.txt" 可以從 "https://mde.tw/cadnote/downloads/2a_w12_seat.txt" 這個網址讀取, 而且希望將上一個 Python 程式改用 Brython 編寫, 要如何修改?</span></p>
+<p><span>回覆結果:</span></p>
+<p>Brython 是一個將 Python 程式碼轉換為 JavaScript 的工具，允許在瀏覽器中執行 Python 程式碼。你可以使用 Brython 來在網頁上執行 Python 程式碼。以下是修改後的 Brython 程式碼，它可以讀取指定網址的檔案並按照指定要求處理：</p>
+<p>首先，確保你的網頁中引入了 Brython 的相關腳本，例如：</p>
+<p><img alt="" height="242" src="./../images/螢幕擷取畫面 2024-01-06 154944.png" width="431"/></p>
+<p><span>接著，將上述 Python 程式碼轉換為 Brython 格式。以下是修改後的 Brython 程式碼：</span></p>
+<p><span><img alt="" height="245" src="./../images/螢幕擷取畫面 2024-01-06 154953.png" width="435"/></span></p>
+<p><span><img alt="" height="248" src="./../images/螢幕擷取畫面 2024-01-06 155007.png" width="440"/></span></p>
+<p><span>這個範例使用了 Brython 和 requests 模組，並在網頁載入時執行 <code>runBrythonScript</code><span> 函數。注意，在瀏覽器環境中使用 Python 腳本需要特殊的轉換，Brython 正是為此而生。</span></span></p>
+<p><span></span></p><br />課程總結 << <a href='課程總結.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
         
     <!-- footer -->
       <div class="container">
